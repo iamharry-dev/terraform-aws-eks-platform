@@ -1,0 +1,22 @@
+# Terraform
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+!terraform.tfvars.example
+tfplan
+
+# Helm
+helm/app/charts/
+helm/app/Chart.lock
+
+# Env / secrets
+.env
+*.pem
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
